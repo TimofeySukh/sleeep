@@ -9,12 +9,12 @@ The script works as a toggle:
 - **Second run** — removes the block
 
 ## Set up
-
+```
 git clone git@github.com:TimofeySukh/sleeep.git
 cd sleeep
 chmod +x main.sh
 sudo cp main.sh /usr/local/bin/sleeep
-
+```
 ## Output examples
 
 ```
