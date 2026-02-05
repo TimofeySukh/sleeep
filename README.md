@@ -8,9 +8,12 @@ The script works as a toggle:
 - **First run** — blocks automatic sleep
 - **Second run** — removes the block
 
-## How it works
+## Set up
 
-The script uses `systemd-inhibit` to block sleep. State is stored in `/tmp/sleeep_block.pid`.
+git clone git@github.com:TimofeySukh/sleeep.git
+cd sleeep
+chmod +x main.sh
+sudo cp main.sh /usr/local/bin/sleeep
 
 ## Output examples
 
